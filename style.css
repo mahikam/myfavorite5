@@ -1,0 +1,92 @@
+body {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 17px;
+    background: linear-gradient(#ceace3 5%, #6d4885 100%);
+    background-repeat: no-repeat;
+    z-index: 9;
+}
+p {
+    font-family: 'Comfortaa', cursive;
+    color: white;
+}
+
+#hobbyimg {
+    border-radius: 50%;
+    width: 300px;
+}
+
+#bakingh1 {
+    font-variant: small-caps;
+    font-size: 50px;
+    color: #006064;
+    font-family: 'Pacifico', cursive;
+}
+
+.menu {
+    list-style: none;
+    position: fixed;
+    top: 0px;
+    margin-top: 0px;
+    cursor: pointer;
+    z-index: 10;
+    width: 100%;
+    background-color: white;
+}
+
+.link {
+    color: black;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+    display: inline;
+}
+
+.links: hover {
+    background-color: #faf09b;
+    font-size: 25px;
+}
+a {
+    text-decoration: none;
+}
+.article:hover{
+    color: darkseagreen;
+}
+html {
+ scroll-behavior: smooth;
+}
+.line {
+    height: 6px;
+    background-color: white;
+    width: 70px;
+    margin: 8px auto;
+}
+.workimg {
+    width: 400px;
+    height: 300px;
+}
+.alink {
+    transition: transform .2s;
+}
+.alink:hover {
+    transform: scale(0.9);
+}
+#contact {
+ background: linear-gradient(#fac7c3 5%, #9e6e6a 100%);
+    padding-bottom: 10px;
+}
+.contact_1 a{
+    color: #bdbfbe;
+    text-shadow: none;
+    
+}
+.contact_1 h3 {
+    display: inline;
+}
+#contact iframe {
+    width: 100%;
+}
+li {
+    display: inline;
+}
